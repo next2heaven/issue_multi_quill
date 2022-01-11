@@ -1,16 +1,3 @@
-# multi_quill
+# Showcasing issue with Flutter Quill editor in a scrollview
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+To replicate issue, click and hold in the text field on iOS then release to view the 'paste' option. Paste a bunch of text in the editor and it'll create an error. ALSO, select a word and move the start or end selectors to view another error. \r\n\r\nI need this to work because I'll end up having multiple Quill editors in a listview all with unknown heights.
