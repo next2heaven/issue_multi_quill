@@ -5,12 +5,13 @@ To replicate issue, click and hold in the text field on iOS then release to view
 I need this to work because I'll end up having multiple Quill editors in a listview all with unknown heights.
 
 
-## Errors
+## Pasting Text Issue
 When doing the 'paste text' action it will produce:
 
 *Failed assertion: line 107 pos 12: '_positions.isNotEmpty': ScrollController not attached to any scroll views.*
 
 
+## Selecting Text Issue
 When selecting a word and then moving the start or end handles to extent the selection it will produce this error:
 
 *ScrollController not attached to any scroll views.
