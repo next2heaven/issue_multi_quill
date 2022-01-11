@@ -12,7 +12,7 @@ When doing the 'paste text' action it will produce:
 
 
 ## Selecting Text Issue (iOS and Android)
-When selecting a word and then moving the start or end handles to extent the selection it will produce this error:
+When selecting a word and then moving the start or end handles to extend the selection it will produce this error:
 
 *ScrollController not attached to any scroll views.
 'package:flutter/src/widgets/scroll_controller.dart':
